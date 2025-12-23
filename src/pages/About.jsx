@@ -41,13 +41,13 @@ export function About() {
                 My approach combines technical proficiency with a commitment to delivering reliable, user-friendly solutions that meet real-world needs.
               </p>
             </div>
-            <div className="relative">
+            {/* <div className="relative">
               <img
                 src= ""
                 alt="Vincent Parkolwa"
                 className="rounded-2xl shadow-2xl"
               />
-            </div>
+            </div> */}
           </div>
         </section>
 

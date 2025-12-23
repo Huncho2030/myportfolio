@@ -85,13 +85,13 @@ export function Home() {
 
             {/* Right Content - Illustration */}
             <div className="relative">
-              <div className="relative w-full flex justify-center">
+              {/* <div className="relative w-full flex justify-center">
                 <img
                   src= ""
                   alt="Abstract shapes"
                   className="w-full max-w-md mx-auto rounded-2xl shadow-2xl object-cover"
                 />
-              </div>
+              </div> */}
               <div className="absolute -z-0 -top-4 -left-4 w-56 h-56 bg-indigo-200 rounded-full mix-blend-multiply blur-xl opacity-70"></div>
               <div className="absolute -z-0 -bottom-4 -right-4 w-56 h-56 bg-purple-200 rounded-full mix-blend-multiply blur-xl opacity-70"></div>
             </div>

@@ -33,8 +33,8 @@ export function ProjectCard({ title, description, technologies, liveLink, github
               rel="noopener noreferrer"
               className="text-indigo-600 hover:text-indigo-700 inline-flex items-center gap-1"
             >
-              {/* <ExternalLink className="w-4 h-4" />
-              Live Demo */}
+              <ExternalLink className="w-4 h-4" />
+              Live Demo
             </a>
           )}
           {githubLink && (
@@ -44,8 +44,8 @@ export function ProjectCard({ title, description, technologies, liveLink, github
               rel="noopener noreferrer"
               className="text-slate-600 hover:text-slate-700 inline-flex items-center gap-1"
             >
-              {/* <Github className="w-4 h-4" />
-              Code */}
+              <Github className="w-4 h-4" />
+              Code
             </a>
           )}
         </div>
